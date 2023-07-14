@@ -112,17 +112,17 @@ HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgUAAxkBAAIIW2NL5v9F9hUom4xmsgNYb63SEfZZAAIZBgACYAF5VIerYoMcSln8KgQ",
-    "CAACAgUAAxkBAAIIT2NL5tVmdAO3n1o3cp9Jic9LkqJvAAK7AgACoU3RVLpdwYfQPmS9KgQ",
-    "CAACAgUAAxkBAAIIUGNL5tVNd0rwdoMv-uDVcZ3hHgwlAAIwAwACP9jQVMv2AfU-DvBfKgQ",
-    "CAACAgUAAxkBAAIIUmNL5tUzCtvS5E-XR8h3tFMSqVu7AAIGAwACNZnYVOTUhlBiHTQGKgQ",
-    "CAACAgUAAxkBAAIIUWNL5tVBEQAB2gWLSq0ymEPeAj5kmQAC3QEAAuu92VSPj3UkCiNvfioE",
+    "CAACAgQAAxkBAAIIpWSw3ykYgQ65Oz27zMZdz8fFdGInAAK5CQACgUcpUh8YovzqfV2FLwQ",
+    "CAACAgEAAxkBAAIIpGSw3yPS88VkC25GudtvEu5C3_LwAALAAwACzIg-BIXVqGxjR5KiLwQ",
+    "CAACAgQAAxkBAAIIoWSw3wAB2SUjKRXESTJfgSEG4njtoAACYQIAAuQh1ghvAAFacrFsnsMvBA",
+    "CAACAgEAAxkBAAIIo2Sw3xsPlGNiGq1qLSPGaJ8sTdl7AAK9AwACzIg-BGzF8fZL2WejLwQ",
+    "CAACAgQAAxkBAAIIoGSw3uwObH8If23djAMVDiZ7I0vTAAJ50zgAAZXbYi_sn1d3TfE5iS8E",
 )
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/9996ec2eafdef4692102d.jpg) 」────
+────「 [{}](https://telegra.ph//file/defa7082007a508813d52.jpg) 」────
 *Hola! {},*
-*Meow Meow, Don't Touch Me Without My Permission!*
+*sharingan 😈, Don't Try To Fight with me 👿!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ❍ *Uptime:* `{}`
 ❍ `{}` *Users, Across* `{}` *Chats.*
@@ -140,7 +140,7 @@ buttons = [
     [
         InlineKeyboardButton(text="📓 Guidelines", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Source 🌐", url="https://github.com/Awesome-Prince/NekoRobot-3.git"
+            text="My Master👿", url="t.me/MXNITRO"
         ),
     ],
     [
@@ -148,7 +148,7 @@ buttons = [
             text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="📢 Updates", url="https://telegram.dog/Programmer_Updates"
+            text="📢 Updates", url="https://telegram.dog/METAXSUPPORT"
         ),
     ],
 ]
@@ -164,14 +164,14 @@ HELP_STRINGS = """
 """
 
 GROUP_START_IMG = (
-    "https://te.legra.ph/file/5f272dc498e4cf91faf92.jpg",
-    "https://te.legra.ph/file/9d8190aba9ac3421af488.jpg",
-    "https://te.legra.ph/file/5b1ce336f0c0216224040.jpg",
-    "https://te.legra.ph/file/f1f67047d973f3aea4004.jpg",
-    "https://te.legra.ph/file/c2526c05d65fd2fbfa58b.jpg",
+    "https://telegra.ph//file/defa7082007a508813d52.jpg",
+    "https://te.legra.ph/file/54e6c00b804c4f1a9af4d.jpg",
+    "https://te.legra.ph/file/07e9c1367dcb8a299c98c.jpg",
+    "https://te.legra.ph/file/d8d6c72ca47699d793f80.jpg",
+    "https://te.legra.ph/file/5aef0ccdf3c9e96379427.jpg",
 )
 
-DONATE_STRING = """❂ I'm Free for Everyone ❂"""
+DONATE_STRING = """❂ Contact My master 😈🔥 @MXNITRO ❂"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -313,7 +313,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="📢 Updates",
-                            url="https://telegram.dog/Programmer_Updates",
+                            url="https://telegram.dog/METAXSUPPORT",
                         ),
                     ]
                 ]
@@ -677,7 +677,7 @@ def donate(update: Update, context: CallbackContext) -> None:
                         [
                             InlineKeyboardButton(
                                 text="📢 Updates",
-                                url="https://telegram.dog/Programmer_Updates",
+                                url="https://telegram.dog/METAXUPDATES",
                             ),
                             InlineKeyboardButton(
                                 text="🚑 Support",
@@ -755,7 +755,7 @@ def main():
 
     else:
         LOGGER.info(
-            f"Neko started, Using long polling. | BOT: [@{NEKO_PTB.bot.username}]"
+            f"Itachi Uchiha started, Using long polling. | BOT: [@{NEKO_PTB.bot.username}]"
         )
         updater.start_polling(
             timeout=15,
