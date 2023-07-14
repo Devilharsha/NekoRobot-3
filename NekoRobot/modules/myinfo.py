@@ -11,11 +11,11 @@ from NekoRobot.events import register
 
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/36440524ecd0a6b65138f.jpg"
-file2 = "https://telegra.ph/file/b0868af85d1d17554a6d4.jpg"
-file3 = "https://telegra.ph/file/60c612b4736560f9b98b9.jpg"
-file4 = "https://telegra.ph/file/a502e6322a201f5949058.jpg"
-file5 = "https://telegra.ph/file/737a7b4d519887c35ed21.jpg"
+file1 = "https://te.legra.ph/file/ca84134db5b8a2a260555.mp4"
+file2 = "https://te.legra.ph/file/457db382cef870dfa162e.mp4"
+file3 = "https://te.legra.ph/file/d8d6c72ca47699d793f80.jpg"
+file4 = "https://te.legra.ph/file/07e9c1367dcb8a299c98c.jpg"
+file5 = "https://te.legra.ph/file/d8d6c72ca47699d793f80.jpg"
 """ =======================CONSTANTS====================== """
 
 
@@ -65,7 +65,7 @@ async def callback_query_handler(event):
     try:
         boy = event.sender_id
         PRO = await bot.get_entity(boy)
-        NEKO = "YOUR DETAILS BY NEKO \n\n"
+        NEKO = "YOUR DETAILS BY ITACHI UCHIHA\n\n"
         NEKO += f"FIRST NAME : {PRO.first_name} \n"
         NEKO += f"LAST NAME : {PRO.last_name}\n"
         NEKO += f"YOU BOT : {PRO.bot} \n"
